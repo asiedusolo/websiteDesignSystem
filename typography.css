@@ -1,0 +1,89 @@
+
+body{
+    background-color: #fff;
+}
+h1{
+    font-size: 2.75rem;
+}
+h2{
+    font-size: 2.25rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+h5{
+    font-size: 1.1125rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+header, main{
+    margin: 50px 10%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000
+
+}
+
+main > h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.typo-section{
+    padding: 20px;
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: space-between;
+    background-color: #eee;
+    margin-bottom: 50px;
+    border-radius: 5px;
+
+}
+
+.typo-section > div:nth-child(1){
+    width: 45%;
+}
+.typo-section > div:nth-child(1) h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.typo-section > div:nth-child(2) p{
+    font-size: 120px;
+}
+.typo-section > div:nth-child(2){
+    width: 45%;
+}
+.typo-section > div:nth-child(2) h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+
+}
+.fruktur{
+    font-family: 'Fruktur';
+}
+.montserrat{
+    font-family: 'Montserrat';
+}
+.poppins{
+    font-family: 'Poppins';
+}
