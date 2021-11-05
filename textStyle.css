@@ -1,0 +1,69 @@
+
+body{
+    background-color: #fff;
+}
+h1{
+    font-size: 2.75rem;
+}
+h2{
+    font-size: 2.25rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+h5{
+    font-size: 1.1125rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+header, main{
+    margin: 50px 10%;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000
+
+}
+
+main > h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.style-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.style-section .style-text{
+    margin-bottom: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+}
+.style-section .style-text > div:nth-child(1){
+    width: 25%;
+}
+.style-section .style-text > div:nth-child(2){
+    width: 70%;
+}
