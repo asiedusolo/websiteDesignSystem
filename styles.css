@@ -1,7 +1,4 @@
 
-:root{
-    font-family: Lato;
-}
 body{
     background-color: #fff;
 }
@@ -21,4 +18,74 @@ h4{
 
 h5{
     font-size: 1.1125rem;
+}
+
+header, main{
+    margin: 50px 10%;
+}
+
+main h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul li{
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #000
+
+}
+
+.palette-content{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.palette-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.palette-section .palette-color{
+    width: 15%;
+    /* border: 1px solid black; */
+    padding: 50px;
+}
+.palette-section .orange{
+    background-color: #ebae34;
+}
+.palette-section .greenish{
+    background-color: #608f6b;
+}
+
+.palette-section .greyish{
+    background-color: #8f7f60;
+}
+
+.palette-section .blue{
+    background-color: #60748f;
+}
+
+.palette-section .greyish-blue{
+    background-color: #978ebf;
+}
+
+.palette-section .dark-blue{
+    background-color: #100f18;
+}
+.dark-blue p{
+    color: white;
 }
