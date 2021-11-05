@@ -20,11 +20,15 @@ h5{
     font-size: 1.1125rem;
 }
 
+h6{
+    font-size: 1rem;
+}
+
 header, main{
     margin: 50px 10%;
 }
 
-main h4{
+main > h4{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 50px;
@@ -38,7 +42,7 @@ ul li{
     font-size: 20px;
 }
 ul li a{
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #000
 
 }
@@ -61,6 +65,7 @@ ul li a{
 
 .palette-section .palette-color{
     width: 15%;
+    border-radius: 5px;
     /* border: 1px solid black; */
     padding: 50px;
 }
